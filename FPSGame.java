@@ -62,6 +62,7 @@ public class FPSGame extends JPanel implements ActionListener, KeyListener {
         // Update enemies
         for (Enemy enemy : enemies) enemy.update();
 
+        
         // Check collisions
         for (int i = bullets.size() - 1; i >= 0; i--) {
             Bullet b = bullets.get(i);
